@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PocketPharmacy</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="search_array">
+        <item>by Generic</item>
+        <item>by Brand</item>
+        <item>by Class</item>
+    </string-array>
+
+    <string name="legal_title">Legal Agreement</string>
+    <string name="legal_message">This application and its content is strictly informative.
+        The creater of this application cannot be held accountable for any misinformation.
+        This is not meant to take the place of proper education.
+        Do you agree?</string>
+    <string name="enter_keyword">Enter Keyword</string>
+    <string name="search_button">Search button</string>
+    <string name="search_results">Search Results</string>
+    <string name="drug_class_">Drug Class:</string>
+    <string name="brand_name_">Brand Name:</string>
+    <string name="common_dosage_forms_">Common Dosage Forms:</string>
+    <string name="drug_interactions_">Drug Interactions:</string>
+    <string name="more_">More...</string>
+
+</resources>

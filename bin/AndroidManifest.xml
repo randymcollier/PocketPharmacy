@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.olemiss.rcollier.pocketpharmacy"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pharmacy"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light"
+        android:uiOptions="splitActionBarWhenNarrow" >
+        <activity
+            android:name="edu.olemiss.rcollier.pocketpharmacy.MainActivity"
+            android:label="Pocket Pharmacy"
+            android:windowSoftInputMode="stateUnchanged" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.olemiss.rcollier.pocketpharmacy.BookmarksView"
+            android:label="Pocket Pharmacy"
+            android:windowSoftInputMode="stateUnchanged" >
+            <intent-filter>
+                <action android:name="edu.olemiss.rcollier.pocketpharmacy.BookmarksView" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.olemiss.rcollier.pocketpharmacy.ViewList"
+            android:label="Pocket Pharmacy"
+            android:windowSoftInputMode="stateUnchanged" >
+            <intent-filter>
+                <action android:name="edu.olemiss.rcollier.pocketpharmacy.ViewList" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.olemiss.rcollier.pocketpharmacy.SearchResultsView"
+            android:label="Pocket Pharmacy"
+            android:windowSoftInputMode="stateUnchanged" >
+            <intent-filter>
+                <action android:name="edu.olemiss.rcollier.pocketpharmacy.SearchResultsView" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.olemiss.rcollier.pocketpharmacy.BookmarksSearchResultsView"
+            android:label="Pocket Pharmacy"
+            android:windowSoftInputMode="stateUnchanged" >
+            <intent-filter>
+                <action android:name="edu.olemiss.rcollier.pocketpharmacy.BookmarksSearchResultsView" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.olemiss.rcollier.pocketpharmacy.IndividualView"
+            android:label="Pocket Pharmacy"
+            android:windowSoftInputMode="stateUnchanged" >
+            <intent-filter>
+                <action android:name="edu.olemiss.rcollier.pocketpharmacy.IndividualView" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.olemiss.rcollier.pocketpharmacy.Web"
+            android:label="Pocket Pharmacy"
+            android:windowSoftInputMode="stateUnchanged" >
+            <intent-filter>
+                <action android:name="edu.olemiss.rcollier.pocketpharmacy.Web" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.olemiss.rcollier.pocketpharmacy.HomeActivity"
+            android:label="Pocket Pharmacy"
+            android:windowSoftInputMode="stateUnchanged" >
+            <intent-filter>
+                <action android:name="edu.olemiss.rcollier.pocketpharmacy.HomeActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
